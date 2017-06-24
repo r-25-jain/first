@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>Hello, WebVR!</title>
+    <meta name="description" content="Hello, WebVR! - A-Frame">
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+    <img id="images" src="images.jpg">
+  </a-assets>
+  <a-box src="#images"></a-box>
+    
+       
+    </a-scene>
+  </body>
+</html>
